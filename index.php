@@ -9,21 +9,22 @@
 
 </head>
 <body>
-        <nav>
+
+            <nav>
                 <div class="profile">
                     <img src="nafi.jpg" alt="profile photo" />
                     <h1>Nafissatou Ndiaye</h1>
                 </div>
                 <ul>
-                    <li><a href="#page-4">Accueil</a></li>
-                    <li><a href="#page-1">Mon profil</a></li>
+                    <li><a href="#page-1">Accueil</a></li>
+                    <li><a href="#page-2">Mon profil</a></li>
                     <li><a href="#page-3">Mes projets</a></li>
-                    <li><a href="#page-2">Contact</a></li>
+                    <li><a href="#page-4">Contact</a></li>
                 </ul>
             </nav>
             <section class="page-content" id="page-4">
                     <header>
-                        <h1>bonjour,je m'appel nafissatou.</h1>
+                        <h1>bonjour,je me nomme nafissatou.</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
                             debitis, facilis aliquam voluptates fugiat ipsum odio, nihil
@@ -121,7 +122,7 @@
                  <footer>
                      <div class="contact" id="page-2">
                             <h4>Contact: </h4>
-                           <p>Address : Bamblor,Rufisque, Dakar, Senegal</p> 
+                           <p>Address : Bamblor, Dakar, Senegal</p> 
                            <p> Email : nafissatoufina99@gmail.com</p>
                            <p> phone : +221 77 236 01 71</p>
                            <p>  whatsapp : +221 77 236 01 71</p>
@@ -129,7 +130,7 @@
                             <!--formulaire-->
                             <form method="post" action="form.php">
                                     <fieldset>
-                                      <legend> vous pouvez aussi  m'ecrire :</legend>
+                                      <legend> vous pouvez aussi  m ecrire :</legend>
                                       <div class="champ">
                                         <label for="nom">Nom :</label>
                                         <input type="text" id="nom" name="nom">
@@ -140,19 +141,18 @@
                                       </div>
                                       <div class="champ">
                                         <label for="mail">Adresse mail :</label>
-                                        <input type="email" id="mail" name="mail">
+                                        <input type="email" id="adresse_email" name="mail">
                                        </div>
                                     </div>
                                     <div class="champ">
                                             <label for="nom">Message :</label>
-                                      <textarea name="exp" placeholder="votre message"></textarea>
+                                      <textarea name="message" placeholder="votre message"></textarea>
                                      </div>  
                                     </fieldset>
                                     <fieldset>
-                                      <input type="submit" value="Envoyer">
+                                      <input type="submit" value="Envoyer" name="send">
                                     </fieldset>
                                   </form>
                 </footer>
-    
 </body>
 </html>
